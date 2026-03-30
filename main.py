@@ -14,7 +14,7 @@ app = FastAPI()
 # CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://mediconnect-gc7w.onrender.com"],  # your React app
+    allow_origins=["https://mediconnect-xp3k.onrender.com"],  # your React app
     allow_methods=["*"],
     allow_headers=["*"],
 )
